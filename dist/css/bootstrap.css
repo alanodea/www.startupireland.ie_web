@@ -324,13 +324,13 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: #ffffff; /* #428bca; */
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #d7d7d7; /* #2a6496; */
   text-decoration: underline;
 }
 
@@ -3813,7 +3813,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {  
   text-decoration: none;
-  background-color: #ffffff; /* #eeeeee */
+  background-color: #000000; /* #eeeeee */
 }
 
 .nav > li.disabled > a {
