@@ -1013,13 +1013,8 @@ color: #fff;
 padding: 1.5em 1em 2em;
 }
 
-.nav-footer .g-3up .gi:nth-of-type(2n+1) {
+.nav-footer {
 clear: none;
-}
-
-.nav-footer .g-3up .gi {
-float: left;
-width: 33.33333%;
 }
 
 .lc, [role=main], .footer-content, .banner-header {
@@ -1061,7 +1056,7 @@ padding-top: 0;
 padding-top: 1.65em;
 }
 
-.footer-logo a {
+.footer-logo {
 display: block;
 width: 60px;
 height: 60px;
