@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:fb="http://ogp.me/ns/fb#" lang="en">
 <html lang="en">
 
 <head>
@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta charset="utf-8">
 <title>Startup Ireland - Connecting the Irish Startup Ecosystem</title>
-<meta name="title" content="" />
+<meta name="title" content="Startup Ireland – Connecting the Irish startup community, start-up supports, start up business supports, start your own business, starting a business in ireland, new business Ireland, how to start a business in ireland, business startup ireland, help for new business start-ups in ireland"/>
 <meta name="description" content="Startup Ireland - #startupireland">	<meta name="keywords" content="game consultant, game consultants, game investor, game investors, game publisher, game publishers, game developer, game developers, lcoation games, online games, social games, facebook games, mobile games, app games, game apps, smartphone games, tablet games, android games, ios games, iphone games, ipad games"/>
 <meta name="robots" content="" />
 <meta name="author" content="">
@@ -17,15 +17,16 @@
 <!-- WEBMASTER TOOLS -->
 
 <!-- OPEN GRAPH -->
+<html >
 <meta property="og:site_name" content="Startup Ireland"/>
 <meta property="og:image" content = "./assets/ico/apple-touch-icon-144-precomposed.png" />
-<meta property="fb:app_id" content="181508585240"/>
+<meta property="fb:app_id" content=""/>
 <meta property="og:title" content="Startup Ireland" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
 
 <!-- LINKS -->
-<link href="https://plus.google.com/b/103006070513757793379/" rel="publisher" />
+<link href="" rel="publisher" />
 
 <!-- Bootstrap core CSS -->
 <link href="./dist/css/bootstrap.css" rel="stylesheet">
@@ -60,7 +61,7 @@
 
 <!-- Widgets -->
 
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!-- <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
 
 <!-- Mapbox -->
 
@@ -77,15 +78,18 @@
 <![endif]-->
 <script src="assets/js/leaflet.markercluster.js"></script>
 
+<!-- AddThis -->
 
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-528761ed36001d1b"></script>
 
-</head>
 <body class="bs-docs-home">
 	<a class="sr-only" href="#content">Skip navigation</a>
 
 <!-- Navbar -->
 
  <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <a name="home"></a>
   <div class="container">
     <div class="navbar-header">
       <div class="nav-logo"></div>
@@ -98,26 +102,62 @@
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 	  <ul class="nav nav-pills">
+	   <li>
+			<a href="/">Home</a>
+        </li>
+		 <li>
+			<a href="#map">Map</a>
+        </li>
         <li>
 			<a href="#about">About</a>
         </li>
         <li>
           <a href="#partners">Partners</a>
-        </li>
+        </li>        
         <li>
-          <a href="#champions">Champions</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
+          <a href="mailto:community@startupireland.ie">community@startupireland.ie</a>
         </li>
       </ul>
     </nav>
   </div>
 </header>
 
+<main class="bs-masthead" id="content" role="main">
+	  
+  <div class="container">
+  <div class="row">
+  <div class="col-xs-8 bs-masthead">
+    <a name="home"></a>
+	<h1>Startup Ireland</h1>
+    <p class="lead">Startup Ireland is a grassroots network connecting the rapidly evolving communities which support the Irish startup ecosystem. Our first goal is to get as many Irish startups as possible represented in the international Crunchbase database.</p>
+    <p>
+      <a href="http://www.crunchbase.com/account/signup" class="btn btn-outline-inverse btn-lg" onclick="_gaq.push(['_trackEvent', 'Landing page actions', 'button_click', 'add your details to crunchbase']);">Add your startup</a>
+    </p>
+	<!-- <a href="https://twitter.com/startupireland" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @twitter</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
+</div>
+
+<div class="col-xs-4 bs-masthead">
+	<h1 id="numCompanies">0</h1><h3><span class="glyphicon glyphicon-chevron-up"></span></h3>
+    <p class="lead">Total Startups</p>
+	<ul class="bs-masthead-links">
+		<li>
+          <a href="http://developer.crunchbase.com/">Built with CrunchBase</a>
+        </li>
+      </ul>
+</div>
+
+</div>
+</div>
+
+</main>
+
+<main class="bs-masthead" id="content" role="main">
 <!-- Map -->
 
+<a name="map"></a>
 <div class="container">
+<h1>Startup Map</h1>
 </br>
   <div class="row">
     <div id='map' style="height: 600px; border-radius: 10px;" >
@@ -126,13 +166,31 @@
 </div>
 </div><!--End row-->
 
+</main>
+
+ <main class="bs-masthead" id="content" role="main">
+<a name="about"></a>
+<div class="container">  
+
+<h1>Help spread the Startup Ireland message</h1>
+<p>
+<!-- AddThis Follow BEGIN -->
+<div class="addthis_toolbox addthis_32x32_style addthis_default_style">
+<a class="addthis_button_facebook_follow" addthis:userid="startupireland"></a>
+<a class="addthis_button_twitter_follow" addthis:userid="startupireland"></a>
+<a class="addthis_button_linkedin_follow" addthis:userid="5089261" addthis:usertype="group"></a>
+<a class="addthis_button_google_follow" addthis:userid="+StartupirelandIeCommunity "></a>
+</div>
+<!-- AddThis Button END -->	
+</p>
+</div>
+
+</main>
 
 <!-- Subscribe-->
-
-<p>
-<div class="container">
-<div class="row">
-  <div class="col-xs-6">
+  <!-- 
+  
+  <div class="col-xs-12">
   <form action="http://simplelifeforms.us5.list-manage2.com/subscribe/post?u=754d3718ea96386ca7d86d2ac&amp;id=bd1ee1a81f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div class="input-group input-group-lg">
       	<input type="text" class="form-control input-lg" placeholder="Username" value="Email" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required">
@@ -140,18 +198,14 @@
         <button class="btn btn-outline-inverse btn-lg" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" type="button">Subscribe!</button>
 	  </span>
 </form>
-    </div><!-- /input-group -->
+    </div><!-- /input-group 
 	<h1>Subscribe to get news and updates</h1>
   </div><!-- /.col-lg-6 -->
-</div><!-- /.row -->
-</div>
-</p><!--End Signup-->
 
 <!-- Startup Count -->
 
-<main class="bs-masthead" id="content" role="main">
+<!-- <main class="bs-masthead" id="content" role="main">
 
-  <a name="about"></a>
   <div class="container">
   <div class="row">
 	<div class="col-xs-5 bs-masthead">
@@ -191,20 +245,96 @@ document.write("<H1>" + daysLeft + " days  </H1> ");
   </div>
 
 </div>
-</main>
+</main> -->
 
     <!-- Page content -->
+    
+ <main class="bs-masthead" id="content" role="main">
 
-    <main class="bs-masthead" id="content" role="main">
+<div class="container">  
+<h1>About Startup Ireland</h1><a name="about"></a>
+   <p>
+	<p class="lead">Startup Ireland is a grassroots network connecting the rapidly evolving communities which support the Irish startup ecosystem. Startup Ireland was born following discussions between those active partners in the Irish startup ecosystem on the best model for such a community led organisation. Inspired by the Startup America Partnership  we resolved to shine a light on indigenous entrepreneurial activity in Ireland.</p> 
+	</p>	
+	<p class="lead" style="font-style:italic; color:#ffffff">Impactful, dynamic networks are powered by grassroots structures and community-minded ideas and people - Startup America</p>
+	<p class="lead" >Influenced by the thinking of Brad Feld and the Kauffman Foundation , Startup Ireland believes that successful startup ecosystems are created from the ground up. 
+What startup entrepreneurs need most is the mentorship and fellowship of other entrepreneurs who can help them avoid missteps and point them toward customers, funders and talent - Kauffman</p>
+  <p class="lead" style="font-style:italic; color:#ffffff">What startup entrepreneurs need most is the mentorship and fellowship of other entrepreneurs who can help them avoid missteps and point them toward customers, funders and talent - Kauffman</p>
+
+</div>
+
+</main>
+
+ <main class="bs-masthead" id="content" role="main">
+	  
   <div class="container">
-    <h1>Startup Ireland</h1>
-    <p class="lead">#startupireland is a grassroots network for the startup ecosystem across Ireland.</p>
-    <p>
-      <a href="http://www.crunchbase.com/account/signup" class="btn btn-outline-inverse btn-lg" onclick="_gaq.push(['_trackEvent', 'Landing page actions', 'button_click', 'add your details to crunchbase']);">Add your startup</a>
-    </p>
-	<a href="https://twitter.com/startupireland" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @twitter</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-  </div>
+	<h1>Our Goals</h1><a name="goals"></a>
+    <p class="lead">Ireland has many of the natural advantages needed to be a leading international startup location. Our over-riding aim is to help our capital achieve a top 20 position in the international ranking of startup ecosystems compiled by the Startup Genome.</p>
+	<p class="lead">Initially the Startup Ireland partnership will focus on fostering connections between the startup communities. We are also collecting data on Irish startups to demonstrate to the international community of investors and entrepreneurs the strength and depth of the Irish startup ecosystem.</p>
+	<p class="lead">Ireland has many of the natural advantages needed to be a leading international startup location. Our over-riding aim is to help our capital achieve a top 20 position in the international ranking of startup ecosystems compiled by the Startup Genome.</p>
+   	</div>
+
+</main>
+
+ <main class="bs-masthead" id="content" role="main">
+	  
+  <div class="container"><a name="Why Ireland"></a>
+    <h1>Why Ireland is Europe’s tech startup capital</h1>
+	<p>
+	<div class="container">
+	<div class="row">
+	<div class="col-xs-6">
+	<iframe width="300" height="169" src="//www.youtube.com/embed/gmjBNevETcM" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<div class="col-xs-4">
+	<!-- <iframe width="300" height="169" src="//www.youtube.com/embed/gmjBNevETcM" frameborder="0" allowfullscreen></iframe> -->
+	</div>
+	<div class="col-xs-6">
+	<iframe width="300" height="169" src="//www.youtube.com/embed/yT-pmJkow9A?rel=0" frameborder="0" allowfullscreen></iframe>
+	</div>
+	</div>
+	</p>
+	</div>	
+	</div>
+
+</main>
+
+ <main class="bs-masthead" id="content" role="main">
+	  
+  <div class="container"><a name="Startup in Ireland"></a>
+    <h1>If you are considering a startup in Ireland here are the people you need to know</h1>
+	<p class="lead">Within Ireland - <a href="http://www.enterprise-ireland.ie">Enterprise Ireland</a></p>
+	<p class="lead">Moving to Ireland - <a href="http://www.idaireland.com">IDA</a></p>
+	</div>	
+	</div>
+
+</main>
+
+ <main class="bs-masthead" id="content" role="main">
+	  
+  <div class="container"><a name="partners"></a>
+  <div class="row">
+	
+    <h1>Members of the Startup Ireland Partnership are growing all the time and include:</h1>
+	<div class="col-xs-4">
+	<p class="lead">Techpreneurs<a href="#"></a></p>
+	<p class="lead">Startup Digest<a href="#"></a></p>
+	<p class="lead">Startup Grind<a href="#"></a></p>
+	</div>
+	<div class="col-xs-4">
+	<p class="lead">Launchpad<a href="#"></a></p>
+	<p class="lead">Inventorium<a href="#"></a></p>
+	<p class="lead">Wayra<a href="#"></a></p>
+	</div>
+	<div class="col-xs-4">
+	<p class="lead">Pub Standards<a href="#"></a></p>
+	<p class="lead">Propeller DCU<a href="#"></a></p>
+	<p class="lead">Dubstarts<a href="#"></a></p>
+	<p class="lead">UCD Innovation Academy<a href="#"></a></p>
+	</div>
+	</div>	
+	</div>
+
 </main>
 
      <footer class="container bs-masthead" role="contentinfo">
@@ -237,11 +367,12 @@ document.write("<H1>" + daysLeft + " days  </H1> ");
 
 <!-- Begin Footer -->
 <a name="contact"></a>
+
 <footer class="footer " role="contentinfo">
 
 <div class="container">
 <div class="row">
-<div class="col-xs-1">
+<div class="col-xs-2">
 </br>
 <p>
 <h4 class="footer-logo"></h4>
@@ -297,15 +428,22 @@ document.write("<H1>" + daysLeft + " days  </H1> ");
 <div class="row">
 <div class="col-xs-4">
 <h3>Follow Us</h3>
-<img src="assets/images/footer_twitter_small.png" alt="Twitter" height="30" width="30">
-<img src="assets/images/footer_facebook_small.png" alt="Facebook" height="30" width="30">
-<img src="assets/images/footer_google_plus_small.png" alt="Google+" height="30" width="30">
-<img src="assets/images/footer_linkedin_small.png" alt="Linkedin" height="30" width="30">
-<img src="assets/images/footer_youtube_small.png" alt="Youtube" height="30" width="30">
-<img src="assets/images/footer_rss_small.png" alt="RSS" height="30" width="30">
+<!-- AddThis Follow BEGIN -->
+<div class="addthis_toolbox addthis_32x32_style addthis_default_style">
+<a class="addthis_button_facebook_follow" addthis:userid="startupireland"></a>
+<a class="addthis_button_twitter_follow" addthis:userid="startupireland"></a>
+<a class="addthis_button_linkedin_follow" addthis:userid="5089261" addthis:usertype="group"></a>
+<a class="addthis_button_google_follow" addthis:userid="+StartupirelandIeCommunity "></a>
+</div>
+<!-- AddThis Follow END -->
+<!-- <img src="assets/images/footer_youtube_small.png" alt="Youtube" height="30" width="30"> -->
+<!-- <img src="assets/images/footer_rss_small.png" alt="RSS" height="30" width="30"> -->
 </div>
 
-<div class="col-xs-6">
+</div>
+</div>
+
+<!-- <div class="col-xs-6">
 <h3 class="section-title aside-adjacent"><span class="no-mobile">Subscribe to </span>Startup Ireland</h3 >
 <div class="">
 	<p class="crunchdaily-tagline">Latest headlines delivered to you</p>
@@ -323,13 +461,11 @@ document.write("<H1>" + daysLeft + " days  </H1> ");
 			</fieldset>
 		</form>
 	</div>
-</div>			</div>
+</div>			
+</div>
 			<!-- End Subscribe Column -->
 
-
-</div>
-</div>
-</div>
+<!-- </div> -->
 
 		<!-- Begin Copyright -->
 
@@ -355,7 +491,7 @@ document.write("<H1>" + daysLeft + " days  </H1> ");
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="./assets/js/jquery.js"></script>
 <script src="./dist/js/bootstrap.js"></script>
-<script src="http://platform.twitter.com/widgets.js"></script>
+
 <script src="./assets/js/holder.js"></script>
 <script src="./assets/js/application.js"></script>
 
@@ -372,8 +508,6 @@ document.write("<H1>" + daysLeft + " days  </H1> ");
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
   })(); </script>
-
-
 
 <script type='text/javascript'>
 
@@ -436,7 +570,6 @@ document.write("<H1>" + daysLeft + " days  </H1> ");
       });
       map.addLayer(markers);
     }
-
 
 </script>
 
